@@ -14,4 +14,5 @@ const media = total / (peso1 + peso2)
 console.log(media.toFixed(2)) // argumentos definem casas decimais
 console.log(media.toString(2)) // se colocar argumentos no toString é convertido pra binário
 console.log (typeof media)
-console.log (typeof Number) // number com N maiusculo é função e minusculo é tipo
+console.log (typeof total) 
+//Teste para os meninos do primeiro semestre
