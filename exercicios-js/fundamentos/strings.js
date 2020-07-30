@@ -11,6 +11,8 @@ console.log(escola.indexOf('3')) // inidice associado a varivel escola
 console.log(escola.substring(1)) // inclui indice 1 até o final
 console.log(escola.substring(0,3)) // indice 0 a 2
 console.log('Escola ' .concat(escola).concat("!")) //Escola é um valor do tipo literal, ou seja posso passar direto sem variável
+//poderia usar console.log('Escola' + escola + "!")
+// + no contexto númerico vai somar mas no string vai concatenar
 console.log(escola.replace(3, 'e'))
 console.log(escola.replace(/\d/, 'e')) // regex pra substituir todos os digitos numericos dentro do texto por e
 
